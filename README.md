@@ -3,5 +3,5 @@
 Installation:
 
 ```
-stow -v -t "$HOME" nvim tmux zshrc
+stow -v -t "$HOME" nvim tmux zsh
 ```
