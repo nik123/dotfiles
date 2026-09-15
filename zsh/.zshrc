@@ -35,6 +35,8 @@ bindkey '^[[1;5C' forward-word  # Ctrl+Right
 bindkey '^[[1;5D' backward-word # Ctrl+Left
 bindkey "^[[3~" delete-char  # del
 
-# vim -> nvim
+# Optional: vim alias for nvim
 # alias vim="nvim"
 
+# ~/.local/bin for binaries installed by 'uv install tools <something>
+export PATH="$PATH:$HOME/.local/bin"
